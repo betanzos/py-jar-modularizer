@@ -1,0 +1,5 @@
+# For Windows
+pyinstaller --onefile --name jarmod-1.0.0-win<arch> --icon icon\jigsaw-64.ico jarmod.py
+
+# For Linux and theoretically for Mac OS X
+pyinstaller --onefile --name jarmod-1.0.0-<osname><arch> jarmod.py
