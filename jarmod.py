@@ -157,6 +157,7 @@ class Main:
                 if path.isfile(dest_dir_path):
                     print("[ERROR] Destination is not a directory (" + dest_dir_path + ")")
                     return False
+                self.__dest_dir = Path(dest_dir_path)
             else:
                 self.__dest_dir = Path(dest_dir_path)
                 self.__dest_dir.mkdir(parents=True)
