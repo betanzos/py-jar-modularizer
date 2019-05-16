@@ -1,4 +1,4 @@
-# JarModularizer
+# PyJarModularizer
 This is the pythoner brother of [JarModularizer](https://github.com/betanzos/jar-modularizer) project. It's a lightweight command line python tool for make non-modular JAR files compatible with Java Platform Module System. It's a translate of [JarModularizer](https://github.com/betanzos/jar-modularizer) code with many changes since python is very different from java.
 
 ## Usage
