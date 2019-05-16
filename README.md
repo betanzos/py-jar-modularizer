@@ -38,11 +38,11 @@ For bundle all the project in a single file, we must to use following command: (
 
 _Windows_
 ```
-pyinstaller --onefile --name jarmod-1.0.0-win<arch> --icon icon\jigsaw-64.ico jarmod.py
+pyinstaller --onefile --name jarmod-<version>-win<arch> --icon icon\jigsaw-64.ico jarmod.py
 ```
 _Linux and Mac OS X (Mac OS X theoretically)_
 ```
-pyinstaller --onefile --name jarmod-1.0.0-<osname><arch> jarmod.py
+pyinstaller --onefile --name jarmod-<version>-<osname><arch> jarmod.py
 ```
 Go to PyInstaller [offical documentation](https://pyinstaller.readthedocs.io/en/stable/) for more details and options.
 

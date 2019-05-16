@@ -36,7 +36,7 @@ class Main:
 
     def __init__(self):
         self.__prod_name = "PyJarModularizer"
-        self.__prod_version = "1.0.0"
+        self.__prod_version = "1.0.1"
         self.__copyright = "Copyright (c) 2019 Eduardo E. Betanzos Morales"
         self.__icon_copyright = "Icon made by monkik from www.flaticon.com"
 

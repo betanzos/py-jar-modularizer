@@ -38,11 +38,11 @@ Para empaquetar todo el proyecto en un único archivo ejecutable debemos utiliza
 
 _Windows_
 ```
-pyinstaller --onefile --name jarmod-1.0.0-win<arch> --icon icon\jigsaw-64.ico jarmod.py
+pyinstaller --onefile --name jarmod-<version>-win<arch> --icon icon\jigsaw-64.ico jarmod.py
 ```
 _Linux y Mac OS X (Mac OS X teóricamente)_
 ```
-pyinstaller --onefile --name jarmod-1.0.0-<osname><arch> jarmod.py
+pyinstaller --onefile --name jarmod-<version>-<osname><arch> jarmod.py
 ```
 Consultar la [documentación oficial](https://pyinstaller.readthedocs.io/en/stable/) de PyInstaller para más detalles y opciones.
 
